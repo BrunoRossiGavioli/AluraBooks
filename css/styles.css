@@ -6,7 +6,7 @@
     --cor-fundo: #EBECEE;
     --cor-primaria: #002F52;
     --cor-secundaria: #EB9B00;
-    --cor-gradiente: #002F52, #326589;
+    --cor-gradiente: linear-gradient(to right,#002F52, #326589);
 }
 
 body{
@@ -15,7 +15,7 @@ body{
 }
 
 .text-primario{
-    background-image: linear-gradient(to right, var(--cor-gradiente));
+    background: var(--cor-gradiente);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
