@@ -17,10 +17,3 @@ body{
     background-color: var(--cor-fundo);
     font-family: var(--fonte-principal);
 }
-
-.text-primario{
-    background: var(--cor-gradiente);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
