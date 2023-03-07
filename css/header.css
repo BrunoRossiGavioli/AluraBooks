@@ -62,7 +62,8 @@
 
 .container__botao,
 .container__titulo,
-.opcoes {
+.opcoes,
+.cabecalho__menu-hamburguer {
     display: none;
 }
 
@@ -100,5 +101,9 @@
         text-decoration: none;
         color: var(--cor-preto);
         padding: 1rem .75rem;
+    }
+
+    .cabecalho{
+        padding: 0rem 1.5rem;
     }
 }
