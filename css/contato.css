@@ -40,14 +40,6 @@
     width: calc(100% - 1.5rem);
 }
 
-.info {
-    border-top: 1px solid #858585;
-    padding: 1rem 0 1.5rem 1.5rem;
-    font-weight: 400;
-    font-size: 1rem;
-    color: black;
-}
-
 @media screen and (min-width:1024px) {
     .contato {
         display: flex;
