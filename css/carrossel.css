@@ -119,3 +119,25 @@
         margin: 3rem auto
     }
 }
+
+@media screen and (min-width:1728px) {
+    .carrossel__container{
+        display: flex;
+        gap: 4rem;
+        margin: 0 12vw 4rem;
+    }
+
+    .swiper{
+        width: 50%;
+        margin: 0;
+    }
+
+    .swiper-pagination{
+        margin: 1rem 0;
+    }
+
+    .descricao__titulo{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
