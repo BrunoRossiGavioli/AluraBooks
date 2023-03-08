@@ -43,6 +43,6 @@
     }
 
     .banner__pesquisa{
-        width: calc(70% - 4rem);
+        width: 38rem;
     }
 }
