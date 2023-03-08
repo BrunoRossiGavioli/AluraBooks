@@ -89,6 +89,7 @@
 
     .container__titulo {
         display: block;
+        margin-right:1.75rem;
     }
 
     .opcoes {

@@ -83,3 +83,39 @@
     height: 100%;
     margin-left: .2rem;
 }
+
+@media screen and (min-width:1024px) {
+    .carrossel__titulo {
+        padding: 3rem 0 1rem 0;
+        font-size: 1.625rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: flex;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 1rem;
+        padding: 0.8rem 1.1rem;
+        background: var(--cor-gradiente);
+        border-radius: 100%;
+        color: var(--cor-branca);
+        font-weight: 700;
+    }
+
+    .swiper {
+        margin: 0 8rem;
+    }
+
+    .swiper-pagination {
+        margin-bottom: 2.5rem;
+    }
+
+    .card {
+        width: 60%;
+        margin: 3rem auto
+    }
+}

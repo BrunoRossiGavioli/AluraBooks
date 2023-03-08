@@ -1,23 +1,23 @@
-.topicos{
+.topicos {
     background: var(--cor-gradiente);
     text-align: center;
     padding: 1rem 0;
 }
 
-.topicos__titulo{
+.topicos__titulo {
     color: var(--cor-branca);
     font-weight: 300;
     margin-bottom: 1rem;
 }
 
-.topicos__lista{
+.topicos__lista {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
 }
 
-.topicos__link{
+.topicos__link {
     display: block;
 
     color: var(--cor-branca);
@@ -27,4 +27,22 @@
     font-size: .875rem;
     font-weight: 700;
     text-decoration: none;
+}
+
+@media screen and (min-width:1024px) {
+    .topicos{
+        padding: 2rem 2rem;
+    }
+    
+    .topicos__titulo{
+        font-size: 1.5rem;
+    }
+
+    .topicos__lista{
+        gap: 1.5rem;
+    }
+
+    .topicos__link{
+        font-size: 1.5rem;
+    }
 }

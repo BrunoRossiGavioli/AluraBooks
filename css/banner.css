@@ -32,3 +32,17 @@
     text-align: center;
     background: url('../img/Pesquisa.svg') no-repeat;
 }
+
+@media screen and (min-width: 1024px){
+    .banner{
+        padding: 5.25rem 2rem;
+    }
+
+    .banner__titulo{
+        font-size: 2.25rem;
+    }
+
+    .banner__pesquisa{
+        width: calc(70% - 4rem);
+    }
+}
