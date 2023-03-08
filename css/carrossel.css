@@ -84,6 +84,10 @@
     margin-left: .2rem;
 }
 
+.botoes__ancora:active {
+    background-color: var(--cor-primaria);
+}
+
 @media screen and (min-width:1024px) {
     .carrossel__titulo {
         padding: 3rem 0 1rem 0;
