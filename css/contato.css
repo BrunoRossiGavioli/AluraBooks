@@ -62,3 +62,9 @@
         align-self: center;
     }
 }
+
+@media screen and (min-width:1728px){
+    .contato{
+        padding: 2rem 25vw;
+    }
+}

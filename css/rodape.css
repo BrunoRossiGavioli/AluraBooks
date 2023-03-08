@@ -32,7 +32,7 @@
         gap: 1rem;
     }
 
-    .rodape__item__titulo{
+    .rodape__item__titulo {
         font-size: .875rem;
         text-transform: uppercase;
         color: var(--cor-cinza);
@@ -46,8 +46,19 @@
         font-size: .875rem;
     }
 
-    .rodape__link{
+    .rodape__link {
         text-decoration: none;
         color: #474646;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .rodape {
+        padding: 3.5rem 3rem 4.25rem;
+    }
+
+    .rodape__lista {
+        padding-left: 1rem;
+        border-left: 1px solid var(--cor-cinza);
     }
 }
